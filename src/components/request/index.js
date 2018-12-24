@@ -1,6 +1,7 @@
 
 class Request {
     constructor(url){
+        if (typeof url !== 'string') throw TypeError(`${url} is not a string`)
         this.url = url
     } 
 
