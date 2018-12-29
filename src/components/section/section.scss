@@ -1,0 +1,31 @@
+.section__title {
+    color: $thirdColor;
+    font-size:14px;
+    border-bottom: 1px solid #e7e7e7;
+	letter-spacing: 0.8px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+.section__title:hover {
+    background: $secondaryColor;
+}
+
+.section__title--active{
+    background-color: $secondaryColor;
+}
+.section__content {
+    display: flex;
+    align-items: center;
+    height: 0;
+    margin: 0;
+    padding: 0 1em;
+    overflow: hidden;
+    transition: height 0.5s ease-out;
+    background: $thirdColor;
+    color: $forthColor;
+    font-size: 13px;
+}
+.section__content--active {
+    height: 50px;
+}
