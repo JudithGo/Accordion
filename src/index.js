@@ -1,4 +1,4 @@
-import Accordion  from './components/accordion'
+import Accordion from './components/accordion'
 import './index.scss'
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -6,5 +6,3 @@ document.addEventListener('DOMContentLoaded', () => {
   const accordion = new Accordion(dl)
   accordion.init()
 })
-
-
